@@ -1,0 +1,154 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #081b29;
+}
+
+.wrapper {
+    position: relative;
+    width:750px;
+    height: 600px;
+    background: transparent;
+    border:2px solid #0ef;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 25px;
+}
+
+
+.wrapper .form-box {
+    position :absolute;
+    top :0;
+    width:50%;
+    height:100%;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.wrapper .form-box.login {
+    left:0;
+    padding: 0 40px;
+}
+.form-box h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    margin-top: 85px;
+}
+
+.form-box .input-box{
+    position: relative;
+    width:100%;
+    height: 50px;
+    margin: 25px 0px; 
+}
+
+.input-box input{
+    width:100%;
+    height: 100%;
+    border:none;
+    outline: none ;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+    color:#0ef;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.input-box label {
+
+    left:0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color:#fff;
+}
+
+.btn {
+    width:100%;
+    height:45px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color:#081b29;
+    background-color: #0ef;
+}
+
+.form-box .logreg-link {
+    font-size :15px;
+    color:#fff;
+    text-align: center;
+    margin :20px 0 10px;
+}
+
+.logreg-link p a {
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 600px;
+}
+
+.logreg-link p a:hover {
+    text-decoration: underline;
+}
+
+
+.wrapper .info-img{
+    position: absolute;
+    top:0;
+    width: 50%;
+    height: 100%;
+    background-image: url("bg-img1.jpeg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float:right;
+    width:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    border-radius: 20px;
+   
+}
+.wrapper .info-img.login{
+    right:0;
+}
+
+.info-img h2 {
+    font-size: 36px;
+    color:#fff;
+    line-height: 1.3;
+    text-transform: uppercase;
+    
+}
+.info-img img{
+    height:80px;
+    width:80px;
+    border-radius: 0 24px 0 24px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
